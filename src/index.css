@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope:500,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(210, 46%, 95%) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cs-h{
+  min-height: 100vh;
+}
+
+.cs-w{
+  width: 75% !important;
+}
+
+.cs-rounded{
+  border-radius: 10px;
+}
+
+.cs-rounded-img{
+  border-radius: 10px 0 0 10px;
+}
+
+.cs-anchor{
+  position: relative;
+}
+
+.cs-share{
+  position: absolute;
+  background-color: hsl(217, 19%, 35%);
+  width: 250px !important;
+  top: -75%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%) !important;
+}
+
+.cs-share::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid hsl(217, 19%, 35%);
+}
+
+/*Font*/
+.cs-c{
+  color: hsl(217, 19%, 35%) !important;
+}
+
+.cs-c-2{
+  color: hsl(214, 17%, 51%) !important;
+}
+
+.cs-c-3{
+  color: hsl(210, 46%, 95%) !important;
+}
+
+.cs-fw-5{
+  font-weight: 500 !important;
+}
+
+.cs-fw-7{
+  font-weight: 700 !important;
+}
+
+.cs-dec{
+  letter-spacing: 5px;
+}
+
+/*Buttons*/
+.cs-btn{
+  width: 100% !important;
+  aspect-ratio: 1 / 1;
+  background-color: hsl(210, 46%, 95%) !important;
+  border: none !important;
+  transition: .3s !important;
+}
+
+.cs-btn:hover{
+  background-color: hsl(214, 17%, 51%) !important;
+}
+
+.cs-btn:hover .cs-img-filter{
+  transition: .3s !important;
+  filter: brightness(0) saturate(100%) invert(87%) sepia(94%) saturate(106%) hue-rotate(173deg) brightness(99%) contrast(96%) !important;
+}
+
+@media (max-width: 921px) {
+  
+}
