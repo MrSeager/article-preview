@@ -38,7 +38,7 @@ code {
   background-color: hsl(217, 19%, 35%);
   width: 250px !important;
   top: -70%; /* Center vertically */
-  left: 96%; /* Center horizontally */
+  left: 95%; /* Center horizontally */
   transform: translate(-50%, -50%) !important;
 }
 
@@ -51,6 +51,11 @@ code {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-top: 15px solid hsl(217, 19%, 35%);
+}
+
+.cs-ar{
+  height: 100%;
+  aspect-ratio: 1 / .1 !important;
 }
 
 /*Font*/
@@ -80,7 +85,7 @@ code {
 
 /*Buttons*/
 .cs-btn{
-  width: 100% !important;
+  width: 80% !important;
   aspect-ratio: 1 / 1;
   background-color: hsl(210, 46%, 95%) !important;
   border: none !important;
